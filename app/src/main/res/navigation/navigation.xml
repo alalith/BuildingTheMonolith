@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/navigation"
+            app:startDestination="@id/titleFragment">
+    <fragment android:id="@+id/titleFragment" android:name="com.arjunlalith.buildingthemonolith.TitleFragment"
+              android:label="fragment_title" tools:layout="@layout/fragment_title"/>
+    <fragment android:id="@+id/week1Fragment" android:name="com.arjunlalith.buildingthemonolith.Week1Fragment"
+              android:label="fragment_week1" tools:layout="@layout/fragment_week1"/>
+</navigation>
