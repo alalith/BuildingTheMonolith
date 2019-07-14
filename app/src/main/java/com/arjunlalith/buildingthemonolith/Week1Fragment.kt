@@ -34,10 +34,10 @@ class Week1Fragment : Fragment() {
                     return Week1MondayFragment()
                 }
                 1 -> {
-                    return TitleFragment()
+                    return Week1WednesdayFragment()
                 }
                 2 -> {
-                    return Week1MondayFragment()
+                    return Week1FridayFragment()
                 }
                 else -> return null
             }

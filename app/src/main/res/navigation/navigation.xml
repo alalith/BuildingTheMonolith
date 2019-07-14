@@ -6,5 +6,5 @@
     <fragment android:id="@+id/titleFragment" android:name="com.arjunlalith.buildingthemonolith.TitleFragment"
               android:label="fragment_title" tools:layout="@layout/fragment_title"/>
     <fragment android:id="@+id/week1Fragment" android:name="com.arjunlalith.buildingthemonolith.Week1Fragment"
-              android:label="fragment_week1" tools:layout="@layout/fragment_week1"/>
+              android:label="Week 1" tools:layout="@layout/fragment_week1"/>
 </navigation>
