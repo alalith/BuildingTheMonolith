@@ -3,7 +3,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
-        tools:context="com.arjunlalith.buildingthemonolith.Week1FridayFragment">
+        tools:context="com.arjunlalith.buildingthemonolith.Week2FridayFragment">
     <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
         <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -89,7 +89,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/percentSquatWarmup2_text"
                     android:layout_marginEnd="4dp"/>
             <TextView
-                    android:text="70"
+                    android:text="65"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/percentSquatWorkout1_text"
@@ -100,7 +100,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp" android:layout_marginEnd="4dp"/>
             <TextView
-                    android:text="80"
+                    android:text="75"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/percentSquatWorkout2_text"
@@ -111,7 +111,7 @@
                     app:layout_constraintEnd_toStartOf="@+id/weightSquatWorkout2_text"
                     android:layout_marginEnd="4dp"/>
             <TextView
-                    android:text="90"
+                    android:text="85"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/percentSquatWorkout3_text"
@@ -516,7 +516,7 @@
                     app:layout_constraintEnd_toEndOf="parent" style="@style/bodyFont"
                     android:layout_marginStart="4dp" android:layout_marginEnd="8dp"/>
             <TextView
-                    android:text="70"
+                    android:text="50"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/percentOHPWorkout1_text"
@@ -625,7 +625,7 @@
                     android:textAlignment="gravity" app:layout_constraintTop_toBottomOf="@+id/repOHPWorkout1_text"
                     android:layout_marginTop="32dp"/>
             <TextView
-                    android:text="45"
+                    android:text="55"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/percentSquatWorkout4_text"
