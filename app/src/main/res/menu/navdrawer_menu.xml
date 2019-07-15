@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:title="Title" android:id="@+id/titleFragment" android:icon="@drawable/home"></item>
-    <item android:title="Week 1" android:id="@+id/week1Fragment" android:icon="@drawable/number_one"></item>
-    <item android:title="Week 2" android:id="@+id/week2Fragment" android:icon="@drawable/number_two"></item>
-    <item android:title="Week 3" android:id="@+id/week3Fragment" android:icon="@drawable/number_three"></item>
-    <item android:title="Week 4" android:id="@+id/week4Fragment" android:icon="@drawable/number_four"></item>
-    <item android:title="Week 5" android:id="@+id/week5Fragment" android:icon="@drawable/number_five"></item>
+    <item android:title="@string/title" android:id="@+id/titleFragment" android:icon="@drawable/home"/>
+    <item android:title="@string/week_1" android:id="@+id/week1Fragment" android:icon="@drawable/number_one"/>
+    <item android:title="@string/week_2" android:id="@+id/week2Fragment" android:icon="@drawable/number_two"/>
+    <item android:title="@string/week_3" android:id="@+id/week3Fragment" android:icon="@drawable/number_three"/>
+    <item android:title="@string/week_4" android:id="@+id/week4Fragment" android:icon="@drawable/number_four"/>
+    <item android:title="@string/week_5" android:id="@+id/week5Fragment" android:icon="@drawable/number_five"/>
+    <item android:title="@string/week_6" android:id="@+id/week6Fragment" android:icon="@drawable/number_six"/>
 </menu>

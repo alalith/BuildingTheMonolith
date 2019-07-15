@@ -4,15 +4,17 @@
             xmlns:tools="http://schemas.android.com/tools" android:id="@+id/navigation"
             app:startDestination="@id/titleFragment">
     <fragment android:id="@+id/titleFragment" android:name="com.arjunlalith.buildingthemonolith.TitleFragment"
-              android:label="fragment_title" tools:layout="@layout/fragment_title"/>
+              android:label="@string/title" tools:layout="@layout/fragment_title"/>
     <fragment android:id="@+id/week1Fragment" android:name="com.arjunlalith.buildingthemonolith.Week1Fragment"
-              android:label="Week 1" tools:layout="@layout/fragment_week1"/>
+              android:label="@string/week_1" tools:layout="@layout/fragment_week1"/>
     <fragment android:id="@+id/week2Fragment" android:name="com.arjunlalith.buildingthemonolith.Week2Fragment"
-              android:label="Week 2" tools:layout="@layout/fragment_week2"/>
+              android:label="@string/week_2" tools:layout="@layout/fragment_week2"/>
     <fragment android:id="@+id/week3Fragment" android:name="com.arjunlalith.buildingthemonolith.Week3Fragment"
-              android:label="Week 3" tools:layout="@layout/fragment_week3"/>
+              android:label="@string/week_3" tools:layout="@layout/fragment_week3"/>
     <fragment android:id="@+id/week4Fragment" android:name="com.arjunlalith.buildingthemonolith.Week4Fragment"
-              android:label="Week 4" tools:layout="@layout/fragment_week4"/>
+              android:label="@string/week_4" tools:layout="@layout/fragment_week4"/>
     <fragment android:id="@+id/week5Fragment" android:name="com.arjunlalith.buildingthemonolith.Week5Fragment"
-              android:label="Week 5" tools:layout="@layout/fragment_week5"/>
+              android:label="@string/week_5" tools:layout="@layout/fragment_week5"/>
+    <fragment android:id="@+id/week6Fragment" android:name="com.arjunlalith.buildingthemonolith.Week6Fragment"
+              android:label="@string/week_6" tools:layout="@layout/fragment_week6"/>
 </navigation>
