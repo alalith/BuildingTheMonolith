@@ -17,7 +17,7 @@ class Week3Fragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_week2, container, false)
+        return inflater.inflate(R.layout.fragment_week3, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -31,13 +31,13 @@ class Week3Fragment : Fragment() {
         override fun getItem(position: Int): Fragment? {
             when(position) {
                 0 -> {
-                    return Week2MondayFragment()
+                    return Week3MondayFragment()
                 }
                 1 -> {
-                    return Week2WednesdayFragment()
+                    return Week3WednesdayFragment()
                 }
                 2 -> {
-                    return Week2FridayFragment()
+                    return Week3FridayFragment()
                 }
                 else -> return null
             }
