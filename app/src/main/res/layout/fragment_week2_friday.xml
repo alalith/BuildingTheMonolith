@@ -324,7 +324,7 @@
                     android:layout_marginEnd="4dp"
                     android:layout_marginStart="4dp"/>
             <TextView
-                    android:text="5"
+                    android:text="1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/setSquatWorkout3_text"
@@ -613,7 +613,7 @@
                     android:layout_marginStart="4dp" android:layout_marginEnd="8dp"
                     style="@style/bodyFont" android:textAlignment="gravity"/>
             <TextView
-                    android:text="@string/hundred_reps"
+                    android:text="@string/five_sets_of_five_reps"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/chinsReps"
