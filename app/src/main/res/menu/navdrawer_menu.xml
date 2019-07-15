@@ -4,4 +4,5 @@
     <item android:title="Week 1" android:id="@+id/week1Fragment" android:icon="@drawable/number_one"></item>
     <item android:title="Week 2" android:id="@+id/week2Fragment" android:icon="@drawable/number_two"></item>
     <item android:title="Week 3" android:id="@+id/week3Fragment" android:icon="@drawable/number_three"></item>
+    <item android:title="Week 4" android:id="@+id/week4Fragment" android:icon="@drawable/number_four"></item>
 </menu>

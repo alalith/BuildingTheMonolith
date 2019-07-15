@@ -11,4 +11,6 @@
               android:label="Week 2" tools:layout="@layout/fragment_week2"/>
     <fragment android:id="@+id/week3Fragment" android:name="com.arjunlalith.buildingthemonolith.Week3Fragment"
               android:label="Week 3" tools:layout="@layout/fragment_week3"/>
+    <fragment android:id="@+id/week4Fragment" android:name="com.arjunlalith.buildingthemonolith.Week4Fragment"
+              android:label="Week 4" tools:layout="@layout/fragment_week4"/>
 </navigation>
